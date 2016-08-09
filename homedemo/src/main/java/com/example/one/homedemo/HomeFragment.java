@@ -12,19 +12,15 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager;
 
 /**
  * Created by CYLL on 2016/8/8.
  */
 public class HomeFragment extends Fragment{
     @Nullable
-
     View view;
-
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.home_layout,null);
-
         return view;
     }
 }

@@ -3,11 +3,104 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    <ListView 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/list3"
-         />
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFD700"
+                android:text="美食"
+                android:drawableTop="@drawable/meishi"
+                android:layout_weight="1"   android:textSize="11sp"
+            android:id="@+id/meishi_but"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9B30FF"
+                android:text="娱乐"
+                android:drawableTop="@drawable/yule"
+                android:layout_weight="1"   android:textSize="11sp"
+                android:id="@+id/yule_butt"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7B68EE"
+                android:text="房产"
+                android:drawableTop="@drawable/fangchan"
+                android:layout_weight="1"   android:textSize="11sp"
+                android:id="@+id/fangchan_butt"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#54FF9F"
+                android:text="车"
+                android:drawableTop="@drawable/che"
+                android:layout_weight="1"   android:textSize="11sp"
+                android:id="@+id/che_butt"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EE30A7"
+                android:text="婚庆"
+                android:drawableTop="@drawable/zuanshi"
+                android:layout_weight="1"   android:textSize="11sp"
+                android:id="@+id/zuanshi_butt"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#54FF9F"
+                android:text="装修"
+                android:drawableTop="@drawable/zhuangxiu"
+                android:layout_weight="1"   android:textSize="11sp"
+                android:id="@+id/zhuangxiu_butt"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EE9A49"
+                android:text="教育"
+                android:drawableTop="@drawable/jiayu"
+                android:layout_weight="1"   android:textSize="11sp"
+                android:id="@+id/jiaoyu_butt"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9B30FF"
+                android:text="工作"
+                android:drawableTop="@drawable/gongzuo"
+                android:layout_weight="1"   android:textSize="11sp"
+                android:id="@+id/gongzuo"
+                />
+        </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>
         
    
 
