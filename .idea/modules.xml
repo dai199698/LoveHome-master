@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LoveHome-master.iml" filepath="$PROJECT_DIR$/LoveHome-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/detailsdemo/detailsdemo.iml" filepath="$PROJECT_DIR$/detailsdemo/detailsdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homedemo/homedemo.iml" filepath="$PROJECT_DIR$/homedemo/homedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personaldemo/personaldemo.iml" filepath="$PROJECT_DIR$/personaldemo/personaldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/publishdemo/publishdemo.iml" filepath="$PROJECT_DIR$/publishdemo/publishdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userDemo/userDemo.iml" filepath="$PROJECT_DIR$/userDemo/userDemo.iml" />
+    </modules>
+  </component>
+</project>
